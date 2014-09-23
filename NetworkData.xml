@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<log>
+	<version>1.1</version>
+	<creator>
+		<name>Internet Explorer Network Inspector</name>
+		<version>11.0.9600.17278</version>
+	</creator>
+	<browser>
+		<name>Internet Explorer</name>
+		<version>11.0.9600.17278</version>
+	</browser>
+	<pages>
+		<page>
+			<startedDateTime>2014-09-15T21:35:17.131-08:00</startedDateTime>
+			<id>0</id>
+			<title/>
+			<pageTimings>
+				<onContentLoad>4644</onContentLoad>
+				<onLoad>9601</onLoad>
+			</pageTimings>
+		</page>
+	</pages>
+	<entries>
+		<entry>
+			<pageref>0</pageref>
+			<startedDateTime>2014-09-15T21:35:17.131-08:00</startedDateTime>
+			<time>4641</time>
+			<request>
+				<method>GET</method>
+				<url>http://mycdnsite.azurewebsites.net/</url>
+				<httpVersion>HTTP/1.1</httpVersion>
+				<cookies>
+					<cookie>
+						<name>ARRAffinity</name>
+						<value>befeb478656d869d114dc4688363a9c7a6a0f29a596d4685034ead84ae70c2f5</value>
+					</cookie>
+				</cookies>
+				<headers>
+					<header>
+						<name>Accept</name>
+						<value>text/html, application/xhtml+xml, */*</value>
+					</header>
+					<header>
+						<name>Accept-Language</name>
+						<value>en-US,en;q=0.5</value>
+					</header>
+					<header>
+						<name>User-Agent</name>
+						<value>Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko</value>
+					</header>
+					<header>
+						<name>Accept-Encoding</name>
+						<value>gzip, deflate</value>
+					</header>
+					<header>
+						<name>Host</name>
+						<value>mycdnsite.azurewebsites.net</value>
+					</header>
+					<header>
+						<name>DNT</name>
+						<value>1</value>
+					</header>
+					<header>
+						<name>Connection</name>
+						<value>Keep-Alive</value>
+					</header>
+					<header>
+						<name>Cookie</name>
+						<value>ARRAffinity=befeb478656d869d114dc4688363a9c7a6a0f29a596d4685034ead84ae70c2f5</value>
+					</header>
+				</headers>
+				<queryString/>
+				<headersSize>365</headersSize>
+				<bodySize>0</bodySize>
+			</request>
+			<response>
+				<status>200</status>
+				<statusText>OK</statusText>
+				<httpVersion>HTTP/1.1</httpVersion>
+				<cookies/>
+				<headers>
+					<header>
+						<name>Content-Type</name>
+						<value>text/html</value>
+					</header>
+					<header>
+						<name>Last-Modified</name>
+						<value>Mon, 15 Sep 2014 20:24:13 GMT</value>
+					</header>
+					<header>
+						<name>Accept-Ranges</name>
+						<value>bytes</value>
+					</header>
+					<header>
+						<name>ETag</name>
+						<value>"c6869f323d1cf1:0"</value>
+					</header>
+					<header>
+						<name>Server</name>
+						<value>Microsoft-IIS/8.0</value>
+					</header>
+					<header>
+						<name>X-Powered-By</name>
+						<value>ASP.NET</value>
+					</header>
+					<header>
+						<name>Date</name>
+						<value>Mon, 15 Sep 2014 21:35:21 GMT</value>
+					</header>
+					<header>
+						<name>Content-Length</name>
+						<value>448</value>
+					</header>
+				</headers>
+				<content>
+					<size>588</size>
+					<mimeType>text/html</mimeType>
+					<text>&lt;!DOCTYPE html&gt;
+
+&lt;html lang="en"&gt;
+    &lt;head&gt;
+        &lt;meta charset="utf-8" /&gt;
+        &lt;title&gt;hello panda&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;h1&gt;Hello Panda&lt;/h1&gt;
+        
+        &lt;p&gt;Web Server Hosted Image:&lt;/p&gt;
+        &lt;img src="Images/panda.jpg" alt="panda pic goes here" height=400 width=266&gt;
+
+
+        &lt;p&gt;CDN Hosted Image:&lt;/p&gt;
+        &lt;!--Replace the image source with the same file location but relevant to the CDN address--&gt;
+        &lt;img src="http://az664986.vo.msecnd.net/Images/panda.jpg" alt="panda pic goes here" height=400 width=266&gt;
+    &lt;/body&gt;
+
+&lt;/html&gt;
+</text>
+				</content>
+				<redirectionURL/>
+				<headersSize>225</headersSize>
+				<bodySize>588</bodySize>
+			</response>
+			<cache/>
+			<timings>
+				<send>0</send>
+				<wait>4641</wait>
+				<receive>0</receive>
+			</timings>
+		</entry>
+		<entry>
+			<pageref>0</pageref>
+			<startedDateTime>2014-09-15T21:35:21.772-08:00</startedDateTime>
+			<time>4953</time>
+			<request>
+				<method>GET</method>
+				<url>http://mycdnsite.azurewebsites.net/Images/panda.jpg</url>
+				<httpVersion>HTTP/1.1</httpVersion>
+				<cookies>
+					<cookie>
+						<name>ARRAffinity</name>
+						<value>befeb478656d869d114dc4688363a9c7a6a0f29a596d4685034ead84ae70c2f5</value>
+					</cookie>
+				</cookies>
+				<headers>
+					<header>
+						<name>Accept</name>
+						<value>image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5</value>
+					</header>
+					<header>
+						<name>Referer</name>
+						<value>http://mycdnsite.azurewebsites.net/</value>
+					</header>
+					<header>
+						<name>Accept-Language</name>
+						<value>en-US,en;q=0.5</value>
+					</header>
+					<header>
+						<name>User-Agent</name>
+						<value>Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko</value>
+					</header>
+					<header>
+						<name>Accept-Encoding</name>
+						<value>gzip, deflate</value>
+					</header>
+					<header>
+						<name>Host</name>
+						<value>mycdnsite.azurewebsites.net</value>
+					</header>
+					<header>
+						<name>DNT</name>
+						<value>1</value>
+					</header>
+					<header>
+						<name>Connection</name>
+						<value>Keep-Alive</value>
+					</header>
+					<header>
+						<name>Cookie</name>
+						<value>ARRAffinity=befeb478656d869d114dc4688363a9c7a6a0f29a596d4685034ead84ae70c2f5</value>
+					</header>
+				</headers>
+				<queryString/>
+				<headersSize>440</headersSize>
+				<bodySize>0</bodySize>
+			</request>
+			<response>
+				<status>200</status>
+				<statusText>OK</statusText>
+				<httpVersion>HTTP/1.1</httpVersion>
+				<cookies/>
+				<headers>
+					<header>
+						<name>Content-Length</name>
+						<value>340863</value>
+					</header>
+					<header>
+						<name>Content-Type</name>
+						<value>image/jpeg</value>
+					</header>
+					<header>
+						<name>Last-Modified</name>
+						<value>Mon, 15 Sep 2014 20:13:13 GMT</value>
+					</header>
+					<header>
+						<name>Accept-Ranges</name>
+						<value>bytes</value>
+					</header>
+					<header>
+						<name>ETag</name>
+						<value>"290717a21d1cf1:0"</value>
+					</header>
+					<header>
+						<name>Server</name>
+						<value>Microsoft-IIS/8.0</value>
+					</header>
+					<header>
+						<name>X-Powered-By</name>
+						<value>ASP.NET</value>
+					</header>
+					<header>
+						<name>Date</name>
+						<value>Mon, 15 Sep 2014 21:35:26 GMT</value>
+					</header>
+				</headers>
+				<content>
+					<size>340863</size>
+					<mimeType>image/jpeg</mimeType>
+				</content>
+				<redirectionURL/>
+				<headersSize>250</headersSize>
+				<bodySize>340863</bodySize>
+			</response>
+			<cache/>
+			<timings>
+				<send>0</send>
+				<wait>4922</wait>
+				<receive>31</receive>
+			</timings>
+		</entry>
+		<entry>
+			<pageref>0</pageref>
+			<startedDateTime>2014-09-15T21:35:21.772-08:00</startedDateTime>
+			<time>141</time>
+			<request>
+				<method>GET</method>
+				<url>http://az664986.vo.msecnd.net/Images/panda.jpg</url>
+				<httpVersion>HTTP/1.1</httpVersion>
+				<cookies/>
+				<headers>
+					<header>
+						<name>Accept</name>
+						<value>image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5</value>
+					</header>
+					<header>
+						<name>Referer</name>
+						<value>http://mycdnsite.azurewebsites.net/</value>
+					</header>
+					<header>
+						<name>Accept-Language</name>
+						<value>en-US,en;q=0.5</value>
+					</header>
+					<header>
+						<name>User-Agent</name>
+						<value>Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko</value>
+					</header>
+					<header>
+						<name>Accept-Encoding</name>
+						<value>gzip, deflate</value>
+					</header>
+					<header>
+						<name>Host</name>
+						<value>az664986.vo.msecnd.net</value>
+					</header>
+					<header>
+						<name>DNT</name>
+						<value>1</value>
+					</header>
+					<header>
+						<name>Connection</name>
+						<value>Keep-Alive</value>
+					</header>
+				</headers>
+				<queryString/>
+				<headersSize>349</headersSize>
+				<bodySize>0</bodySize>
+			</request>
+			<response>
+				<status>200</status>
+				<statusText>OK</statusText>
+				<httpVersion>HTTP/1.1</httpVersion>
+				<cookies/>
+				<headers>
+					<header>
+						<name>Accept-Ranges</name>
+						<value>bytes</value>
+					</header>
+					<header>
+						<name>Content-Type</name>
+						<value>image/jpeg</value>
+					</header>
+					<header>
+						<name>Date</name>
+						<value>Mon, 15 Sep 2014 21:35:21 GMT</value>
+					</header>
+					<header>
+						<name>Etag</name>
+						<value>"290717a21d1cf1:0"</value>
+					</header>
+					<header>
+						<name>Last-Modified</name>
+						<value>Mon, 15 Sep 2014 20:13:13 GMT</value>
+					</header>
+					<header>
+						<name>Server</name>
+						<value>ECAcc (sjc/4EB1)</value>
+					</header>
+					<header>
+						<name>X-Cache</name>
+						<value>HIT</value>
+					</header>
+					<header>
+						<name>X-Powered-By</name>
+						<value>ASP.NET</value>
+					</header>
+					<header>
+						<name>Content-Length</name>
+						<value>340863</value>
+					</header>
+				</headers>
+				<content>
+					<size>340863</size>
+					<mimeType>image/jpeg</mimeType>
+				</content>
+				<redirectionURL/>
+				<headersSize>263</headersSize>
+				<bodySize>340863</bodySize>
+			</response>
+			<cache/>
+			<timings>
+				<send>0</send>
+				<wait>16</wait>
+				<receive>125</receive>
+			</timings>
+		</entry>
+	</entries>
+</log>
